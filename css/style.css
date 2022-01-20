@@ -49,11 +49,11 @@ footer {
 }
 
 .jumbotron {
-    height: 600px;
+    height: 700px;
     position: relative;
     background-image: url('../img/banner.jpg');
-    background-size: cover;
     border-radius: 20px;
+    background-size: cover;
     
 }
 
@@ -63,7 +63,7 @@ footer {
     top: 0;
     right: 0;
     left: 0;
-    background-color: #0000006b;
+    background-color: #0000003b;
     border-radius: 20px;
     
 
@@ -81,6 +81,7 @@ div.jumbo-text{
 }
 .container2 {
     margin-bottom: 10px;
+    position: relative;
 }
 
 .lightblue {
@@ -163,11 +164,34 @@ h4{
     padding: 5px;
 }
 
-
 h6{
     font-family: cursive;
 }
 
 h3{
     font-family: sans-serif;
+}
+
+.gray-bg1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #0000003b;
+    border-radius: 10px;
+}
+
+.gray-bg2{
+    position: absolute;
+    width: 595px;
+    height: 200px;
+    background-color: #0000003b;
+    border-radius: 10px;
+}
+
+.gray-bg3{
+    position: absolute;
+    width: 310px;
+    height: 200px;
+    background-color: #0000003b;
+    border-radius: 10px;
 }
