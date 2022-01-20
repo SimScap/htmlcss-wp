@@ -121,7 +121,7 @@ aside.lightblue, div.central{
 }
 
 .container2 .central {
-    width: calc(50% - 20px);
+    width: calc(50% - 24px);
     
 }
 
@@ -176,17 +176,17 @@ aside img, div.central img{
 }
 
 .gray-bg1{
-    width: 307px;
+    width: 330px;
     background-color: #0000003b;
 }
 
 .gray-bg2{
-    width: 595px;
+    width: 650px;
     background-color: #0000003b;
 }
 
 .gray-bg3{
-    width: 309px;
+    width: 340px;
     background-color: #0000003b;
 }
 
