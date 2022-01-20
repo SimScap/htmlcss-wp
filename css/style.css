@@ -4,16 +4,6 @@
     margin: 0;
 }
 
-h1{
-    font-size: 30px;
-    font-family: roboto;
-}
-
-h5{
-    color: grey;
-    font-family: open;
-}
-
 header {
     height: 150px;
 }
@@ -21,6 +11,41 @@ header {
 header img{
     width: 12rem;
 }
+
+footer {
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+h1{
+    font-size: 30px;
+    font-family: roboto;
+}
+
+h3{
+    font-family: sans-serif;
+}
+
+h5{
+    color: grey;
+    font-family: open;
+}
+
+h4{
+    color: gray;
+    padding: 5px;
+}
+
+h6{
+    font-family: cursive;
+}
+
+p{
+    color: lightgray;
+    padding: 5px;
+}
+
 
 div#vertical-line{
     width: 1px;
@@ -31,11 +56,6 @@ div#vertical-line{
     vertical-align: top; 
 }
 
-footer {
-    height: 50px;
-    text-align: center;
-    font-size: 30px;
-}
 
 .clearfix::after {
     content: "";
@@ -54,7 +74,15 @@ footer {
     background-image: url('../img/banner.jpg');
     border-radius: 20px;
     background-size: cover;
-    
+}
+
+div.jumbo-text{
+    position: absolute;
+    bottom: 100px;
+    left: 40px;
+    width: 50%;
+    color: white;
+    font-size: 25px;
 }
 
 .layover{
@@ -65,20 +93,9 @@ footer {
     left: 0;
     background-color: #0000003b;
     border-radius: 20px;
-    
-
 }
 
-div.jumbo-text{
-    position: absolute;
-    bottom: 100px;
-    left: 40px;
-    width: 50%;
-    color: white;
-    font-size: 25px;
-    z-index: 2;
 
-}
 .container2 {
     margin-bottom: 10px;
     position: relative;
@@ -121,6 +138,7 @@ li{
     padding: 5px;
     color: grey;
     font-weight: bolder;
+    vertical-align: sub;
 }
 
 li:hover{
@@ -131,6 +149,7 @@ li:hover{
 
 ul{
     margin-top: 20px;
+    height: 40px;
 }
 .header-first-section{
     margin-bottom: 10px;
@@ -139,12 +158,10 @@ ul{
 aside img{
     border-radius: 10px;
     height: 200px;
-    object-fit: cover;
-    
+    object-fit: contain;
 }
 
 div.central img{
-    width: 100%;
     height: 200px;
     border-radius: 10px;
     object-fit: cover;
@@ -154,44 +171,27 @@ div.central img{
     color: red;
 }
 
-p{
-    color: lightgray;
-    padding: 5px;
-}
-
-h4{
-    color: gray;
-    padding: 5px;
-}
-
-h6{
-    font-family: cursive;
-}
-
-h3{
-    font-family: sans-serif;
+aside img, div.central img{
+    width: 100%;
 }
 
 .gray-bg1{
-    position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 307px;
     background-color: #0000003b;
-    border-radius: 10px;
 }
 
 .gray-bg2{
-    position: absolute;
     width: 595px;
-    height: 200px;
     background-color: #0000003b;
-    border-radius: 10px;
 }
 
 .gray-bg3{
-    position: absolute;
-    width: 310px;
-    height: 200px;
+    width: 309px;
     background-color: #0000003b;
+}
+
+.gray-bg1, .gray-bg2, .gray-bg3{
+    position: absolute;
+    height: 200px;
     border-radius: 10px;
 }
