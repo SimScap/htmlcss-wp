@@ -6,8 +6,21 @@
 
 
 header {
-    height: 100px;
-    border: 2px solid black;
+    height: 150px;
+    
+}
+
+header img{
+    width: 12rem;
+}
+
+div#vertical-line{
+    width: 1px;
+    height: 80px;
+    background-color: gray;
+    margin-left: 40px;
+    display: inline-block;
+    vertical-align: top; 
 }
 
 footer {
@@ -68,4 +81,18 @@ div.central, section.margin-right10{
 
 header,div.margin-bot25{
     margin-bottom: 25px;
+}
+
+li{
+    display: inline;
+    padding: 5px;
+    color: grey;
+    font-weight: bolder;
+}
+
+ul{
+    margin-top: 20px;
+}
+.header-first-section{
+    margin-bottom: 10px;
 }
