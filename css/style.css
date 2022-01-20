@@ -7,7 +7,6 @@
 
 header {
     height: 150px;
-    
 }
 
 header img{
@@ -39,9 +38,12 @@ footer {
     margin: 40px auto;
 }
 
-.big-yellow {
-    height: 400px;
-    background-color: #b9b168;
+.jumbotron {
+    height: 600px;
+    border: 2px solid black;
+    position: relative;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
 }
 
 .container2 {
